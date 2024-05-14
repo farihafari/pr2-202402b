@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.up-head{
+    width: 90%;
+    height: 30px;
+    border-bottom: 1px solid rgba(123, 121, 121, 0.5);
+    margin: auto;
+}
+.lo-head{
+    width: 90%;
+    height: 50px;
+    /* background-color: aliceblue; */
+    margin: auto;
+    display: flex;
+}
+.logo{
+    width: 13%;
+    height: inherit;
+    /* background-color: black; */
+}
+.logo>img{
+    width: 100%;
+    height: inherit;
+}
+nav{
+    width: 87%;
+    height: inherit;
+    /* background-color:blanchedalmond ; */
+}
+nav>ul{
+    height: inherit;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 15px;
+    transition: all .3s ease-in;
+    border-radius: 3px;
+}
+nav>ul>li>a:hover{
+
+    color: red;
+    background-color: white;
+}
+nav>ul>li>button{
+padding: 10px 20px ;
+background-color: red;
+border-radius: 5px;
+color: white;
+font-weight: 600;
+text-transform: capitalize;
+
+}
+/* banner */
+main{
+    width: 100%;
+    height: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,7,99,0.9023984593837535) 84%);
+    color: white;
+}
+.text-center{
+    width: 60%;
+    height: 170px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    /* line-height: 2px; */
+    padding-top: 10% ;
+   
+    text-align: center;
+}
+.text-center>h1{
+    font-size: 30px;
+    
+    /* padding: 20px ; */
+}
+.text-center>p{
+    font-size: 15px;
+    padding: 2px;
+}
+.search-container{
+width: 60%;
+height: 80px;
+/* background-color: rgb(13, 146, 29); */
+margin:15px auto;
+}
+.search-container>ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.search-container>ul>li{
+    width: 30%;
+    height: 40px;
+    color: rgb(98, 95, 95);
+    /* background-color: black; */
+    border-right: 1px solid rgba(104, 101, 101,.3);
+    font-size: 12px;
+    padding: 10px 5px;
+}
+.search-container>ul>li:first-child{
+    width: 45%;
+}
+.search-container>ul>li:last-child{
+    background-color: rgb(26, 190, 26);
+    width: 9%;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 2px;
+    border-radius: 0px 5px 5px 0px;
+}
+.btn{
+    width: 22%;
+    /* background-color: rgb(27, 79, 124); */
+    margin: auto;
+}
+button{
+    padding: 7px 25px;
+    font-size: 12px;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+}
+.con{
+    width: 90%;
+    height: 300px;
+    /* background-color: beige; */
+    margin: auto;
+    position: relative;
+
+}
+.row{
+    width: 90%;
+    height: 200px;
+    /* background-color: blueviolet; */
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 20%;
+}
+.col{
+    width: 50%;
+    height: 200px;
+    /* background-color: brown; */
+    border: 1px solid rgba(80, 77, 77, 0.5);
+    position: relative;
+    top: 10%;
+}
+.con>h1{
+    position: absolute;
+    font-size: 17px;
+    color: gray;
+    font-weight: 100;
+    background-color: #fff;
+    padding:10px 20px;
+    text-align: center;
+    top: 20%;
+    left: 25%;
+    z-index: 1;
+
+}
+.col>h3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #233d7b;
+    padding: 30px 10px;
+}
+.col>ul{
+    list-style: none;
+}
+.col>ul>li{
+    font-size: 13px;
+    padding: 4px;
+    color: gray;
+}
+.col>ul>li>span{
+    padding: 4px;
+    font-size: 15px;
+    font-style: italic
+}
+.or{
+    width: 5%;
+    height: 40px;
+    background-color: #fff;
+    position:absolute;
+    left: 47.5%;
+    top: 55%;
+    z-index: 2;
+}
+.or>h5{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 13px;
+    color: gray;
+    
+}
