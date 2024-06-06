@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    width: 400px;
+    text-align: center;
+    height: 150px;
+   
+}
+/* tbody>tr:first-child{
+    background-color: aqua;
+}
+tbody>tr:last-child{
+    background-color: brown;
+}
+tbody>tr:nth-child(3){
+    background-color: green;
+} */
+tr{
+    transition: all .2s ease;
+}
+tbody>tr:nth-child(even){
+    background-color: green;
+} 
+tbody>tr:nth-child(odd){
+    background-color: rgb(162, 235, 162);
+} 
+tbody>tr:hover{
+    background-color: blue;
+    color: white;
+}
