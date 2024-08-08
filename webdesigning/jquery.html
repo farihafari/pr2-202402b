@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <button class="btn btn-outline-primary my-3 mx-3" id="hide">hide</button>
+    <button class="btn btn-outline-primary my-3 mx-3" id="show">Show</button>
+    <button class="btn btn-outline-primary my-3 mx-3" id="toggle">Toggle</button>
+    <button class="btn btn-outline-primary my-3 mx-3" id="fadeIn">FadeIn</button>
+    <button class="btn btn-outline-primary my-3 mx-3" id="FadeOut">FadeOut</button>
+    <button class="btn btn-outline-primary my-3 mx-3" id="FadeToggle">FadeToggle</button>
+    <p class="py-2 px-3 border border-danger">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+        velit, amet doloremque,
+        officiis soluta eos ex fugiat nam voluptate atque nulla recusandae quaerat molestiae delectus quo, cum tempore
+        voluptates quas?</p>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("p").hide("slow");
+            })
+            $("#show").click(function () {
+                $("p").show("slow");
+            })
+        })
+
+    </script>
+</body>
+
+</html>
