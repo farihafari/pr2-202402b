@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"> skills</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+
+            <button type="button" class="btn btn-primary" id="btn">Submit</button>
+        </form>
+        <ul id="text"></ul>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $("#btn").click(function () {
+            let uname = $("#name").val();
+            let x = `<li>${uname}</li>`;
+            // let y = ''
+            // y += x;
+            // $("p").html(y);
+            document.querySelector("#text").innerHTML += x;
+        })
+    })
+</script>
+
+</html>
