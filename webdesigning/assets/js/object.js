@@ -7,25 +7,25 @@ let obj = [
     },
     {
         serviceName: "Graphic Designing",
-        servicePrice: "$40",
+        servicePrice: "$60",
         images: "assets/images/g1.webp",
         description: "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
     {
         serviceName: "Software Development",
-        servicePrice: "$40",
+        servicePrice: "$70",
         images: "assets/images/s1.png",
         description: "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
     {
         serviceName: "Search Engine Optimization",
-        servicePrice: "$40",
+        servicePrice: "$70",
         images: "assets/images/se1.png",
         description: "Some quick example text to build on the card title and make up the bulk of the card's content."
     },
     {
         serviceName: "Software Testing",
-        servicePrice: "$40",
+        servicePrice: "$80",
         images: "assets/images/i2.jpg",
         description: "Some quick example text to build on the card title and make up the bulk of the card's content."
     }

@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Samsung Galaxy A35",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob1.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":"Infinix GT 20 Pro",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob2.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":" Tecno Camon 30 LOEWE",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob3.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":"Oppo A60",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob4.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":"Vivo Y28",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob5.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":"Realme C65",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob6.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    }
+]
