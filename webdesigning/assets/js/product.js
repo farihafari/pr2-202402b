@@ -1,7 +1,7 @@
 fetch("assets/json/product.json")
     .then(Response => Response.json())
     .then(data => {
-        // console.log(data)
+        console.log(data)
         let d = ``;
         for (let keys of data) {
             // console.log(keys.name)
@@ -18,5 +18,5 @@ fetch("assets/json/product.json")
             </div>`
         }
         document.querySelector("#productData").innerHTML = d;
-        
+
     })
