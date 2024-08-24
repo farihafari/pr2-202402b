@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+<style>
+    img:hover {
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container mt-3">
+        <h1 class="text-center text-capitalize text-info">detail page </h1>
+        <div class="row justify-content-center" style="width: 60%; margin: auto;">
+            <div class="">
+                <img src="assets/images/bg1.jpeg" class="img-top" alt="" id="bImg">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="assets/images/bg1.jpeg" class="img-top" alt="" onclick="imgPreview(this)">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="assets/images/bg1.webp" class="img-top" alt="" id="sImg" onclick="imgPreview(this)">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <img src="assets/images/bg2.jpeg" class="img-top" alt="" onclick="imgPreview(this)">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+
+
+                    <img src="assets/images/bg2.webp" class="img-top" alt="" onclick="imgPreview(this)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/detail.js"></script>
+</body>
+
+</html>

@@ -34,5 +34,11 @@
         "price":"Rs. 119,999",
         "images":"assets/images/mob6.jpg",
         "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
+    },
+    {
+        "name":"Realme C65",
+        "price":"Rs. 119,999",
+        "images":"assets/images/mob6.jpg",
+        "description":"Samsung is working on a new Galaxy A35 series that is expected to land in markets in the very near future. The Galaxy A35 series is expected to come with powerful processors, a large display, and an impressive camera setup. Additionally,"
     }
 ]
