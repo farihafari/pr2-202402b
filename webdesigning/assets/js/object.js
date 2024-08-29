@@ -30,6 +30,7 @@ let obj = [
         description: "Some quick example text to build on the card title and make up the bulk of the card's content."
     }
 ];
+console.log(obj[0])
 let nullVariable = ``;
 // document.write(obj.serviceName + " " + obj.servicePrice)
 // for (let i = 0; i < obj.length; i++) {
